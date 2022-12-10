@@ -13,11 +13,11 @@ There should be whitespace between paragraphs. We recommend including a README, 
 # The Pollenbee Dataset
 _"Improving pollen-bearing honey bee detection from videos captured at hive entrance by combining deep learning and handling imbalance techniques"_
 The Pollenbee Dataset is built for the purpose of serving the problem of detecting pollen bees. The dataset contains more than **2000 images**, which include 2 classes of objects: pollen-bearing bees and non-pollen-bearing bees with numbers of 1758 and 59068 respectively. The dataset was collected at the bee farm of the Vietnam Agricultural Academy by a data acquisition system consisting of an Nvidia jetson nano development kit and an IMX477 HQ camera with a 6mm CS-Mount lens, all devices are placed in a housing surveillance weatherproof outdoor camera box. We adjust the camera along with the downward-facing view. We attach the housing surveillance weatherproof outdoor camera box within only one stage of the hive body. Our data acquisition system:
-![Octocat]("images/system.PNG")
+![Octocat]("https://github.com/DinhTus49/DinhTus49.github.io/tree/main/images/system.PNG")
 Example of video collected by our data acquisition system:
 figgg
 
-## Header 2
+# Details
 
 > This is a blockquote following a header.
 >
