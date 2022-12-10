@@ -43,3 +43,6 @@ var fun = function lang(l) {
   return true;
 }
 ``` -->
+
+# Download
+The dataset can be downloaded [here](https://drive.google.com/drive/folders/1fdEcu7CNmEkVAamu9wh_Ppw_-uW3VNY1?usp=share_link) or in the download link (red) on the left side of the screen. The dataset has been divided into training sets, validation sets and test sets with the ratio of 70:20:10. You can use this divided dataset to compare the results we obtained or you can re-divide the data set to achieve the best results.
