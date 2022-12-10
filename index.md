@@ -12,12 +12,25 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # The Pollenbee Dataset
 _"Improving pollen-bearing honey bee detection from videos captured at hive entrance by combining deep learning and handling imbalance techniques"_
-The Pollenbee Dataset is built for the purpose of serving the problem of detecting pollen bees. The dataset contains more than **2000 images**, which include 2 classes of objects: pollen-bearing bees and non-pollen-bearing bees with numbers of 1758 and 59068 respectively. The dataset was collected at the bee farm of the Vietnam Agricultural Academy by a data acquisition system consisting of an Nvidia jetson nano development kit and an IMX477 HQ camera with a 6mm CS-Mount lens, all devices are placed in a housing surveillance weatherproof outdoor camera box. We adjust the camera along with the downward-facing view. We attach the housing surveillance weatherproof outdoor camera box within only one stage of the hive body. Our data acquisition system:
+The Pollenbee Dataset is built for the purpose of serving the problem of detecting pollen bees. The dataset contains more than **2000 images**, which include 2 classes of objects: pollen-bearing bees and non-pollen-bearing bees with numbers of 1758 and 59068 respectively. 
+
+The dataset was collected at the bee farm of the Vietnam Agricultural Academy by a data acquisition system consisting of an Nvidia jetson nano development kit and an IMX477 HQ camera with a 6mm CS-Mount lens, all devices are placed in a housing surveillance weatherproof outdoor camera box. We adjust the camera along with the downward-facing view. We attach the housing surveillance weatherproof outdoor camera box within only one stage of the hive body. Our data acquisition system:
 ![Octocat]("https://github.com/DinhTus49/DinhTus49.github.io/tree/main/images/system.PNG")
 Example of video collected by our data acquisition system:
 figgg
 
 # Details
+We collect data as videos over many days, each video lasts 1 minute, each day from 6 am to 5:30 pm, and each time is separate 30 minutes to obtain images at different times with different natural light conditions and a different number of bees.
+
+Based on observations on captured videos, pollen-bearing bees are usually present from 8:30 a.m. to 11 a.m., so we selected videos during those times to create the dataset. Fig 2 shows some examples of images in the dataset. Figure 3 shows the diversity of pollen bees in the dataset.
+
+The number of each object class in the dataset is shown in the following table:
+
+| id| Label        | Object class           | Instances |
+|:--|:-------------|:-----------------------|:----------|
+| 1 | nonpollenbee | Non pollen-bearing bee | 59068     |
+| 2 | pollenbee    | Pollen-bearing bee     | 1758      |
+|   |              | **Total:**             | 60826     |
 
 > This is a blockquote following a header.
 >
