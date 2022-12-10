@@ -11,7 +11,8 @@ The dataset was collected at the bee farm of the Vietnam Agricultural Academy by
 ![Data acquisition system](images/system.PNG)
 
 Example of video collected by our data acquisition system:
-figgg
+
+![Example of our collected video](images/video_dataset.gif)
 
 # Details
 We collect data as videos over many days, each video lasts **1 minute**, each day from 6 am to 5:30 pm, and each time is separate 30 minutes to obtain images at different times with different natural light conditions and a different number of bees. All videos were recorded in the resolution of **1920x1080 at 60 fps**. Next figure show some examples of dataset in different light conditions:
