@@ -4,7 +4,7 @@ layout: default
 # The Pollenbee Dataset
 _"Improving pollen-bearing honey bee detection from videos captured at hive entrance by combining deep learning and handling imbalance techniques"_
 
-The Pollenbee Dataset is built for the purpose of serving the problem of detecting pollen bees. The dataset contains more than **2000 images**, which include 2 classes of objects: pollen-bearing bees and non-pollen-bearing bees with numbers of 1758 and 59068 respectively. 
+The Pollenbee Dataset is built for the purpose of serving the problem of detecting pollen bees. The dataset contains more than **2000 images**consisting of **1,758 pollen bearing** and **59,068 non-pollen bearing bees**. 
 
 The dataset was collected at the bee farm of the Vietnam Agricultural Academy by a data acquisition system consisting of an Nvidia jetson nano development kit and an IMX477 HQ camera with a 6mm CS-Mount lens, all devices are placed in a housing surveillance weatherproof outdoor camera box. We adjust the camera along with the downward-facing view. We attach the housing surveillance weatherproof outdoor camera box within only one stage of the hive body. Our data acquisition system:
 
@@ -33,6 +33,14 @@ The number of each object class in the dataset is shown in the following table:
 
 The dataset was annotated manualy first by Labelme Annotation tools and then by a object detection model trained on the annotated dataset. Next figure show the annotation process by Labelme Annotation Tool.
 ![Annotation](images/annotations.PNG)
+
+The PollenBee dataset was divided into 3 sets: training set, validation set, and test set at the ratio 0.7:0.2:0.1. Finally, the training set: 1496 images, the validation set: 381 images, and the test set: 174 images. Figure below shows the distribution of the number of bees among classes in different sets:
+
+![Distribution in each sets](images/data_distribute_each_set_eng.png)
+
+Next figure shows the distribution of the length and width of the bounding boxes in PollenBee dataset. We can see that the size of the bounding box is quite variable (pollen-bearing bee: width in range [50,100px], height in range [100,150px]).
+
+![Distribution of width height](images/height_width_distribute_each_class_eng.png)
 
 <!-- # Citation
 If you find useful the Pollenbee dataset for your research, please cite the paper:
